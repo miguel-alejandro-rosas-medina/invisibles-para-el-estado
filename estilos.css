@@ -96,7 +96,7 @@ p { margin: 0; }
 .que-es { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2.5rem; padding-top: 1rem; align-items: start; }
 .prosa { display: grid; gap: 1rem; max-width: 38rem; }
 blockquote { margin: 0.5rem 0 0; padding-left: 1.2rem; border-left: 2px solid var(--vela); font-style: italic; }
-cite { display: block; font-style: normal; font-family: var(--f-dato); font-size: 0.78rem; color: var(--hueso-tenue); margin-top: 0.4rem; }
+cite { display: block; font-style: normal; font-family: var(--f-dato); font-size: 0.95rem; color: var(--hueso-tenue); margin-top: 0.4rem; }
 .grupos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
 .grupos li { font-family: var(--f-titulo); font-weight: 500; padding: 0.9rem 1rem; border: 1px solid var(--noche-3); color: var(--hueso-tenue); border-radius: 6px; }
 .grupos li.activo { color: var(--noche); background: var(--caso); border-color: var(--caso); font-weight: 800; }
@@ -186,6 +186,9 @@ figcaption a { color: var(--hueso-tenue); }
 .ley-pasa { border-top: 3px solid var(--caso1); }
 .ley-dice span, .ley-pasa span { display: block; font-family: var(--f-dato); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hueso-tenue); margin-bottom: 0.4rem; }
 .ley-pasa span { color: var(--caso1); }
+.escazu { margin-top: 1rem; padding: 1.4rem 1.5rem; background: var(--noche-2); border-left: 4px solid var(--caso); display: grid; gap: 0.8rem; max-width: 52rem; }
+.escazu .etiqueta { color: var(--caso); }
+.escazu p { font-size: 1rem; }
 .frase-grande { font-family: var(--f-titulo); font-weight: 800; font-size: clamp(1.6rem, 4vw, 2.6rem); padding-top: 1.5rem; }
 
 /* Línea de tiempo */
